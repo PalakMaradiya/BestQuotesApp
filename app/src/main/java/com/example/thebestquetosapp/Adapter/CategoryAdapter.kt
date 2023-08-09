@@ -9,7 +9,8 @@ import com.example.thebestquetosapp.Activity.CategoryActivity
 import com.example.thebestquetosapp.ModalClass.CategoryModalClass
 import com.example.thebestquetosapp.R
 
-class CategoryAdapter(var categoryActivity: CategoryActivity, var CategoryList: ArrayList<CategoryModalClass>
+class CategoryAdapter(
+    var categoryActivity: CategoryActivity, var CategoryList: ArrayList<CategoryModalClass> , var onItemClick :(( id :Int, name :String)-> Unit)
 ) : RecyclerView.Adapter<CategoryAdapter.MyViewHolder>() {
     class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
 
@@ -20,7 +21,6 @@ class CategoryAdapter(var categoryActivity: CategoryActivity, var CategoryList: 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryAdapter.MyViewHolder {
 
         var view = LayoutInflater.from(parent.context).inflate(R.layout.category_item_file,parent,false)
-
         return MyViewHolder(view)
     }
 
@@ -29,7 +29,15 @@ class CategoryAdapter(var categoryActivity: CategoryActivity, var CategoryList: 
 
     override fun onBindViewHolder(holder: CategoryAdapter.MyViewHolder, position: Int) {
 
+
+        holder.txtCategory.text = CategoryList[position].id.toString()
         holder.txtCategory.text = CategoryList[position].name
+
+        holder.txtCategory.setOnClickListener {
+
+            onItemClick.invoke(CategoryList[position].id,CategoryList[position].name)
+        }
+
 
     }
 
