@@ -40,7 +40,7 @@ Offline Access: Enjoy access to your favorite quotes even when you're offline.
 
 Copyright © [Palak ![Screenshot 2024-03-30 160215](https://github.com/PalakMaradiya/BestQuotesApp/assets/129178606/121edb29-8050-41bd-a71d-ad6ddba367b7)
 Maradiya](https://https://github.com/PalakMaradiya/). <br>
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <div align="center">
 
