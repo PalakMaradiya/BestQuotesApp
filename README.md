@@ -31,7 +31,7 @@ Offline Access: Enjoy access to your favorite quotes even when you're offline.
 
 ## 📝 License
 
-Copyright © [Palak Maradiya](https://https://github.com/PalakMaradiya/). <br>
+Copyright © [PalakMaradiya](https://https://github.com/PalakMaradiya/). <br>
 This project is [MIT](LICENSE.md) licensed.
 
 <div align="center">
