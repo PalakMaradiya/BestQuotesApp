@@ -32,7 +32,7 @@ Offline Access: Enjoy access to your favorite quotes even when you're offline.
 ## 📝 License
 
 Copyright © [PalakMaradiya](https://https://github.com/PalakMaradiya/). <br>
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](.LICENSE.md) licensed.
 
 <div align="center">
 
